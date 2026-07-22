@@ -1,0 +1,4 @@
+interface:
+  display_name: "XMind ת Markdown"
+  short_description: "������ XMind ��ͼ��ȫת��Ϊ Markdown"
+  default_prompt: "Use $xmind-to-markdown to convert XMind files into Markdown without overwriting existing output."
