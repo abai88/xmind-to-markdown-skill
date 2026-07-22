@@ -9,7 +9,7 @@ param(
 $ErrorActionPreference = 'Stop'
 
 if ([string]::IsNullOrWhiteSpace($ToolPath)) {
-    $ToolPath = 'D:\' + [char]0x5DE5 + [char]0x5177 + '\xmind2md\xmind2md.py'
+    $ToolPath = Join-Path $PSScriptRoot 'xmind2md.py'
 }
 
 if (-not (Test-Path -LiteralPath $ToolPath -PathType Leaf)) {
